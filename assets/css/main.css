@@ -1,0 +1,27 @@
+html,
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 15px;
+  color: #37474f;
+  text-align: center;
+  margin: 30px 10px 0 10px;
+}
+
+a {
+  color: #008337;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:hover {
+  color: #036b2e;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p:last-of-type {
+  font-size: 0.8em;
+}
