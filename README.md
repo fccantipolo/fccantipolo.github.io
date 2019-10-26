@@ -1,5 +1,3 @@
-# FreeCodeCamp Antipolo
-
 ![freeCodeCamp.org Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 > **FreeCodeCamp Antipolo** is a local study group in Antipolo City, Philippines. Learn how to code at [FreeCodeCamp.org](https://freecodecamp.org)
