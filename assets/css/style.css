@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* NAV */
+.nav{
+    display: flex;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+/* nav-toggler */
+.hamburger{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    display: none;
+    cursor: pointer;
+}
+.hamburger .line{
+    width: 35px;
+    height: 5px;
+    background: #000;
+    margin: 8px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.logo svg{
+    width: 40px; 
+    margin: 10px 5px;  
+    background: #168816;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+}
+.logo h3{
+    color: #168816;
+}
+.nav-list{
+    margin: 0 10px;
+    display: flex;
+}
+.nav-links{
+    list-style: none;
+    padding: 20px 10px;
+    margin: 0px 2px;
+}
+.nav-links:hover{
+    background: #168816;
+    color: #f1f1f1;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #000;
+}
+/* BODY */
+.front{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)), url('../images/bg.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.front .wrapper{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.front .text{
+    width: 50%;
+}
+.front .text h1{
+    font-size: 40px;
+    color: #5eff5e;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, .9);
+    margin-left: 20px;
+}
+.front .text button{
+    color: #169116;
+    background: #e9e9e9;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px 15px;
+    cursor: pointer;  
+    border: solid 2px #126912;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.front .text button:hover{
+    color: #e9e9e9;
+    background: #169116;
+    border: solid 2px #fff;
+}
+.front .imgcover{
+    width: 50%;
+}
+.front img{
+    width: 100%;
+    margin-left: 20px;
+}
+.about{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: #edfaed;
+}
+.about .wrapper{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.about .wrapper h3{
+    font-size: 35px;
+    padding-bottom: 30px;
+    margin: 20px 0px;
+    color: #000;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
+}
+.about .wrapper p{
+    font-size: 19px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.about .wrapper button{
+    color: #169116;
+    background: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    cursor: pointer;  
+    border: solid 2px #126912;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about .wrapper button:hover{
+    color: #e9e9e9;
+    background: #169116;
+    border: solid 2px #fff;
+}
+.meet-ups{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+.meet-ups .wrapper{
+    max-width: 800px;
+    margin: auto;
+}
+.meet-ups .wrapper .meet-cover{
+    margin: 100px 0px;
+}
+.meet-ups .wrapper h2{
+    font-size: 40px;
+    color: #000;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+    padding-bottom: 20px;
+}
+.meet-ups .wrapper h4, p{
+    margin: 5px 0px;
+    padding: 5px 5px;
+}
+.meet-ups .meet{
+    margin: auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+    width: 60%;
+    border-radius: 5px;
+    background: #eeeeee;
+}
+.meet-ups h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.meet-ups img{
+    width: 100%;
+    height: 100%;
+}  
+/* FOOTER */
+footer{
+    background: #006400;
+}
+footer p, li{
+    padding: 10px 0px;
+}
+footer .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 50px;
+    padding: 100px 0px;
+}
+footer .wrapper .freeCodeCamp-details{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+footer .wrapper .freeCodeCamp-Name{
+    display: flex;
+    align-items: center;
+}
+footer .wrapper .freeCodeCamp-details svg{
+    width: 30px;
+    margin-right: 10px;
+}
+footer .wrapper .freeCodeCamp-details p{
+    font-size: 13px;
+}
+footer .wrapper .freeCodeCamp-details p:nth-child(2){
+    font-size: 12px;
+}
+footer .wrapper .freeCodeCamp-details p:nth-child(3){
+    font-size: 11px;
+}
+footer .wrapper .logo div h3{
+    font-size: 18px;
+    font-weight: 200; 
+}
+footer .wrapper li{
+    list-style: none;
+    font-size: 13px;
+}
+footer .wrapper{
+    max-width: 1000px;
+    margin: auto;
+    color: #fff;
+    font-size: 15px;
+}
+footer .wrapper svg{
+    border-radius: 0%;
+    background: transparent;
+    color: #fff;
+}
+footer .wrapper h3{
+    color: #fff;
+}
+/* Media Queries */
+
+@media (max-width: 810px){
+    .front .wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .front .wrapper img{
+        margin: 0;
+    }
+    .front .wrapper .text h1{
+        margin: 0;
+    }
+    .front .wrapper button{
+        margin: 0;
+    }
+    footer .wrapper{
+        margin: 0px 50px;
+    }
+}
+
+@media (max-width: 750px){
+    .hamburger{
+        display: block;
+        z-index: 3;
+    }
+    .nav-list{
+        flex-direction: column;
+        position: absolute;       
+        top: 0;
+        background: #fff;
+        width: 100%;
+        margin: 0;
+        transform: translateY(-100%);
+        transition: transform 500ms ease-in-out;
+    }
+    .nav-links{
+        list-style: none;
+        padding: 20px 10px;
+        margin: 0px 2px;
+        width: 100%;
+    }
+    .active{
+        transform: translateY(0%);
+    }
+}
