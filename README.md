@@ -16,7 +16,6 @@ Read the [Quickstart](#-quick-start) and [CONTRIBUTING.md](https://github.com/fc
 
 ```sh
 git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
-
 # replace <github-username-here> with your github username
 ```
 
