@@ -21,8 +21,6 @@ git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
 
 1. **Open with your favorite text editor**
 
-VS Code
-
 ```sh
 code fccantipolo.github.io
 ```
