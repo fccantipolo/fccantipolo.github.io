@@ -14,18 +14,18 @@ Read the [Quickstart](#rocket-quick-start) and [CONTRIBUTING.md](https://github.
 
 2. **Clone your forked repository**
 
- ```sh
- git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
- # replace <github-username-here> with your github username
- ```
+    ```sh
+    git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
+    # replace <github-username-here> with your github username
+    ```
 
 3. **Open with your favorite text editor**
 
- VS Code
+    VS Code
 
- ```sh
- code fccantipolo.github.io
- ```
+    ```sh
+    code fccantipolo.github.io
+    ```
 
 ## :sos: Having trouble"?"
 
