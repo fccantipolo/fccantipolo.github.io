@@ -2,9 +2,7 @@
 
 # freeCodeCamp Antipolo Website
 
-## Introduction
-
-**Hello** :wave:
+## :wave: Introduction
 
 Welcome to our Github repo! We are now developing our website for our local study group. We encourage everyone to contribute especially those part of FCC Antipolo.
 
