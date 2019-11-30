@@ -1,18 +1,32 @@
+# freeCodeCamp Antipolo Website
+
 ![freeCodeCamp.org Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
-> **FreeCodeCamp Antipolo** is a local study group in Antipolo City, Philippines. Learn how to code at [FreeCodeCamp.org](https://freecodecamp.org)
+## :wave: Introduction
 
-## Contribute
+Welcome to our Github repo! We are now developing our website for our local study group. We encourage everyone to contribute especially those part of FCC Antipolo.
 
-- :thumbsup: Fork this repository
-- :muscle: Start working
-- :tada: Make a Pull Request
+Read the [Quickstart](#rocket-quick-start) and [CONTRIBUTING.md](https://github.com/fccantipolo/fccantipolo.github.io/blob/master/CONTRIBUTING.md) to know how to contribute.
 
-> NOTE:
->
-> - Homepage must be named as `index.html`
-> - CSS files must be inside of `/assets/css`
-> - JS files must be inside of `/assets/js`
-> - Images must be inside of `/images` or `/assets/images` if the image is an asset
+## :rocket: Quick Start
 
-Join us on Facebook - [FreeCodeCamp.Antipolo](https://web.facebook.com/groups/FreeCodeCamp.Antipolo)
+1. **Fork this repository**
+
+2. **Clone your forked repository**
+
+    ```sh
+    git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
+    # replace <github-username-here> with your github username
+    ```
+
+3. **Open with your favorite text editor**
+
+    VS Code
+
+    ```sh
+    code fccantipolo.github.io
+    ```
+
+## :sos: Having Trouble
+
+Ask questions on FCC Antipolo [Facebook Group](https://web.facebook.com/groups/freeCodeCamp.Antipolo).
