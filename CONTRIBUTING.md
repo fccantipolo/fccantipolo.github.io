@@ -35,3 +35,7 @@ We will use **Roboto**, available at [Google Fonts](https://fonts.google.com).
 ### Assets
 
 Assets are available at `assets/`
+
+## :sos: Having Trouble
+
+Ask questions on FCC Antipolo [Facebook Group](https://web.facebook.com/groups/freeCodeCamp.Antipolo).
