@@ -12,21 +12,21 @@ Read the [Quickstart](#rocket-quick-start) and [CONTRIBUTING.md](https://github.
 
 1. **Fork this repository**
 
-1. **Clone your forked repository**
+2. **Clone your forked repository**
 
-  ```sh
-  git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
-  # replace <github-username-here> with your github username
-  ```
+ ```sh
+ git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
+ # replace <github-username-here> with your github username
+ ```
 
-1. **Open with your favorite text editor**
+3. **Open with your favorite text editor**
 
-  VS Code
+ VS Code
 
-  ```sh
-  code fccantipolo.github.io
-  ```
+ ```sh
+ code fccantipolo.github.io
+ ```
 
-## :sos: Having trouble?
+## :sos: Having trouble"?"
 
 Ask questions on FCC Antipolo [Facebook Group](https://web.facebook.com/groups/freeCodeCamp.Antipolo).
