@@ -19,7 +19,7 @@ git clone https://github.com/<your-github-username-here>/fccantipolo.github.io
 # replace <github-username-here> with your github username
 ```
 
-1. **Open your cloned repo with your favorite text editor**
+1. **Open with your favorite text editor**
 
 VS Code
 
