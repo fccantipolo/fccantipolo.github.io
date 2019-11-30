@@ -1,6 +1,6 @@
-![freeCodeCamp.org Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
-
 # freeCodeCamp Antipolo Website
+
+![freeCodeCamp.org Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 
 ## :wave: Introduction
 
