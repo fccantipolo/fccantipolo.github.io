@@ -6,7 +6,7 @@
 
 Welcome to our Github repo! We are now developing our website for our local study group. We encourage everyone to contribute especially those part of FCC Antipolo.
 
-Read the [Quickstart](#-quick-start) and [CONTRIBUTING.md](https://github.com/fccantipolo/fccantipolo.github.io/blob/master/CONTRIBUTING.md) to know how to contribute.
+Read the [Quickstart](#rocket-quick-start) and [CONTRIBUTING.md](https://github.com/fccantipolo/fccantipolo.github.io/blob/master/CONTRIBUTING.md) to know how to contribute.
 
 ## :rocket: Quick Start
 
