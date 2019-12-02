@@ -21,12 +21,6 @@ Read the [Quickstart](#rocket-quick-start) and [CONTRIBUTING.md](https://github.
 
 3. **Open with your favorite text editor**
 
-    VS Code
-
-    ```sh
-    code fccantipolo.github.io
-    ```
-
 ## :sos: Having Trouble
 
 Ask questions on FCC Antipolo [Facebook Group](https://web.facebook.com/groups/freeCodeCamp.Antipolo).
