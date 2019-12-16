@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* NAV */
+h1{
+    text-align: center;
+    background: #c9c8c8;
+    width: 50px;
+    margin: 10px auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+/* nav-toggler */
+.hamburger{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    display: none;
+    cursor: pointer;
+}
+.hamburger .line{
+    width: 35px;
+    height: 5px;
+    background: #000;
+    margin: 8px 0px;
+}
+.nav{
+    display: flex;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .4);
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+.nav .logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.nav .logo svg{
+    width: 50px; 
+    margin: 10px 5px;  
+    border-radius: 50%;
+    padding: 5px;
+    color: #168816;;
+}
+.nav .logo h3{
+    color: #168816;
+}
+.nav .nav-list{
+    margin: 0 10px;
+    display: flex;
+}
+.nav .nav-links{
+    list-style: none;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: solid #fff 2px;
+    padding: 15px 10px;
+}
+.nav .nav-links:hover{
+    color: #168816;	
+}
+.nav .join{
+    background: #168816;
+    border-radius: 10px;
+    color: #e9e9e9;
+}
+.nav .join:hover{
+    background: #106310;
+    color: #e9e9e9;
+}
+.nav .nav-list a{
+    text-decoration: none;
+    color: #000;
+}
+/*Media Queries*/
+
+@media (max-width:800px){
+    .hamburger{
+        display: block;
+        z-index: 2;
+    }
+    .nav .nav-list{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        width: 100%;  
+        text-align: center;   
+        transform: translateY(-100%);
+        transition: transform 300ms ease-in;      
+        margin: auto; 
+    }      
+    .nav .nav-links{
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .nav .nav-list.toggle{
+        transform: translateY(0%);
+    }
+}
