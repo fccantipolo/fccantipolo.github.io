@@ -27,7 +27,7 @@ We will use **Roboto**, available at [Google Fonts](https://fonts.google.com).
 
 - Green
   - `#006400` - primary
-  - `#C8FEC8` - secondary
+  - `#168816` - secondary
 - Black
   - `#2E3E48` - text
   - `#828282` - supporting text
