@@ -1,4 +1,5 @@
-#navMenu a.navbar-item:hover {
+#navMenu a.navbar-item:hover,
+#navMenu a.navbar-item:focus {
   color: #168816 !important;
 }
 
